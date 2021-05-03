@@ -1,6 +1,6 @@
 title: Dataset creation with manual segmentation
 picture: projects/brachial-plexus.png
-groups: radboudumc, ai4a
+groups: radboudumc, ai4a, etz
 default_group: radboudumc
 finished: false
 type: general
