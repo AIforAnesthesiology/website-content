@@ -5,7 +5,7 @@ default_group: radboudumc
 finished: false
 type: general
 template: project-single
-people: Rob Tolboom
+people: Rob Tolboom, Erik Dortangs
 description: The goal of this project is to gather 500 ultrasound images of the brachial plexus in 250 healthy adults and manually annotate the brachial plexus.
 
 
