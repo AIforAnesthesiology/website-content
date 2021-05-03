@@ -1,7 +1,7 @@
 title: Erik Dortangs
 name: Erik Dortangs
 template: people-single
-picture: people/Erik_Dortangs.jpeg
+picture: people/Erik_Dortangs.jpg
 position: Researcher
 active: yes
 groups: etz, ai4a
