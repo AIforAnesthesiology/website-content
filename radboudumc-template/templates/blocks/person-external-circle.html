@@ -9,10 +9,12 @@
     <a href="{{ person.url }}"><img data-src="{{ IMGURL }}/images/people/Person.png" class="img-thumbnail rounded-circle lazyload" alt="{{ person.name }}"></a>
     {% endif %}
 
-    <h3 class="person-name"><a href="{{ person.url }}">
-      {{ person.name }}
-      <small><svg class="svg-icon svg-icon-external-link"><use xlink:href="#icon-external-link"></use></svg></small>
-    </a></h3>
+    <a href="{{ person.url }}">
+        <h3 class="person-name">
+            {{ person.name }}
+        </h3>
+        <small><svg class="svg-icon svg-icon-external-link"><use xlink:href="#icon-external-link"></use></svg></small>
+    </a>
 
     <h4 class="person-title"><small>{{ person.position }}</small></h4>
 
