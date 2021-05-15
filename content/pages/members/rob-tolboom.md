@@ -1,17 +1,22 @@
 title: Rob Tolboom
-name: Rob Tolboom
 template: people-single
-picture: people/Rob_Tolboom.jpeg
-position: AIOS anesthesiologie
-active: yes
 groups: radboudumc, ai4a
 default_group: radboudumc
+
+name: Rob Tolboom
+picture: people/Rob_Tolboom.jpeg
+
+affiliation: Radboudumc, Nijmegen
+type: faculty
+position: AIOS anesthesiologie
+
+active: yes
+
 email: Rob.Tolboom@radboudumc.nl
 office: Route 710, arts-assistentenkamer
-type: faculty
 telephone: 
 website: 
-affiliation: Radboudumc, Nijmegen
+
 scholar: https://scholar.google.com/citations?user=20c9OHYAAAAJ
 publons: https://publons.com/researcher/2830600/robert-c-tolboom/
 orcid: https://orcid.org/0000-0002-3460-1934
