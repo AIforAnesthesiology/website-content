@@ -16,7 +16,6 @@ scholar: https://scholar.google.com/citations?user=20c9OHYAAAAJ
 publons: https://publons.com/researcher/2830600/robert-c-tolboom/
 orcid: https://orcid.org/0000-0002-3460-1934
 linkedin: http://www.linkedin.com/in/robtolboom/
-researcherid: F-2461-2010
 
 After graduation from secondary education (Baarnsch Lyceum) in 2005, he moved to Utrecht to study Medicine at Utrecht University. During the latter years of his study, his interest in research was sparked and he started contributing to a research project at the department of cardiology as research-assistant. He finished his master’s degree with a senior internship at the department of surgery at the Sint Antonius Hospital in Nijmegen, followed by a senior internship at the department of pediatric anesthesiology at the Wilhelmina Childrens’ hospital in Utrecht. 
 
