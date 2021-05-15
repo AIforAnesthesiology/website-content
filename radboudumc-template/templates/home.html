@@ -159,11 +159,6 @@
             <div class="row">
                 <div class="col-md-12 mb-4">
                     <h1>{{ HOME_SECTIONS["Research"] }}</h1>
-                    {% for card in pages %}
-                        {% if card.category == 'research' and card.show_in_overview != 'false' %}
-                            {% include "blocks/card.html" %}
-                        {% endif %}
-                    {% endfor %}
                 </div>
             </div>
             <div class="row">
