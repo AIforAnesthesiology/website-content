@@ -157,6 +157,11 @@
     <div class="block {{ row_class.next() }}">
         <div class="container">
             <div class="row">
+                {% for card in pages %}
+                    {% if card.category == 'research' and card.show_in_overview != 'false' %}
+                        {% include "blocks/card.html" %}
+                    {% endif %}
+                {% endfor %}
                 <div class="col-md-12 mb-4">
                     <h1>{{ HOME_SECTIONS["Research"] }}</h1>
                     {% for card in pages %}
@@ -186,7 +191,7 @@
         </div>
     </div>
     {% endif %}
-        
+
     {% if "Vacancies" in HOME_SECTIONS %}
       {% set ns = namespace(has_vacancy=False, vacancies=0) %}
 
@@ -237,9 +242,6 @@
       </div>
       {% endif %}
     {% endif %}
-
-    
-
 
     {% if "Projects" in HOME_SECTIONS %}
     <div class="block {{ row_class.next() }}">
