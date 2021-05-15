@@ -21,10 +21,10 @@
       {{ person.name }}
     </a></h3>
 
-    <h4 class="person-title"><small>{{ person.position }}</small></h4>
-
     {% if SITE_GROUP == 'ai4a' %}
-      <p class='text-muted'>{{ person.affiliation }}</p>
+      <h4 class="person-title"><small>{{ person.affiliation }}</small></h4>
+    {% else %}
+      <h4 class="person-title"><small>{{ person.position }}</small></h4>
     {% endif %}
 
     {% if SHOW_EMAIL_GROUP_MEMBERS_INLINE and person.email %}
