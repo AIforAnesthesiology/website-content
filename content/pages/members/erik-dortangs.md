@@ -1,16 +1,22 @@
 title: Erik Dortangs
-name: Erik Dortangs
 template: people-single
-picture: people/Erik_Dortangs.jpg
-position: Anesthesioloog
-active: yes
 groups: etz, ai4a
 default_group: etz
-email: E.Dortangs@etz.nl
-office: ETZ, Tilburg
-type: faculty
-telephone: +31 00 0000 0000
+
+name: Erik Dortangs
+picture: people/Erik_Dortangs.jpg
+
 affiliation: ETZ, Tilburg
+type: faculty
+position: Anesthesioloog
+
+active: yes
+
+email: E.Dortangs@etz.nl
+office: 
+telephone: 
+website: 
+
 scholar: 
 publons: 
 orcid: 
