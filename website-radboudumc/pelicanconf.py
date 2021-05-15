@@ -47,7 +47,7 @@ HOME_SECTIONS = {
     "Highlights": "Highlights",
     "Vacancies": "Vacancies",
     "Projects": "Projects",
-    "Calendar": "Calendar",
+    #"Calendar": "Calendar",
 }
 # URLs
 SITEURL = "https://radboudumc.aiforanesthesiology.nl"
