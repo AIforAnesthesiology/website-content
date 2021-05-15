@@ -1,8 +1,8 @@
 title: AI for Anesthesiology research centers
 template: people
 
-* [Radboudumc](http://radboudumc.aiforanesthesiology.nl)
-![Adhesion example]({{ IMGURL }}/images/radboudumc_logo_english-320.png)
+* [Radboudumc, Nijmegen](http://radboudumc.aiforanesthesiology.nl)
+* [Elisabeth-TweeSteden Ziekenhuis, Tilburg](http://etz.aiforanesthesiology.nl)
 
 <!---
 
