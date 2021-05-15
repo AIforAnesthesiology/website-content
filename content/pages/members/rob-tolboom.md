@@ -2,7 +2,7 @@ title: Rob Tolboom
 name: Rob Tolboom
 template: people-single
 picture: people/Rob_Tolboom.jpeg
-position: Researcher
+position: AIOS
 active: yes
 groups: radboudumc, ai4a
 default_group: radboudumc
