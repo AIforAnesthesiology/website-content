@@ -34,7 +34,7 @@ CONTENT_TYPES = {
     'member': {
         'dir': 'members',
         'url': 'members/{slug}/',
-        'tags': ['name', 'position', 'groups', 'email', 'picture', 'default_group'],
+        'tags': ['name', 'position', 'groups', 'email', 'picture', 'default_group', 'affiliation'],
         'varname': 'MEMBER_DATA',
     },
     'project': {

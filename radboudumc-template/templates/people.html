@@ -127,7 +127,6 @@
             {% for person in members if person.type == 'faculty' and person.active == 'yes' %}
                 {% if person.name in MEMBER_DATA_PER_NAME %}
                     {% set person = MEMBER_DATA_PER_NAME[person.name] %}
-                    {% set person.mainpage = True %}
                 {% endif %}  
                 {% if not ns.has_faculty %}
                     <h2>Researchers</h2>
