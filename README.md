@@ -1,39 +1,22 @@
-# DIAG Website content
+# AI for Anesthesiology
 
-This repository stores all the content and source code for the DIAG websites. From this repository multiple Pelican-powered websites are built, based on a central content database.
+This repository stores all the content and source code for the AI for Anesthesiology websites. From this repository multiple Pelican-powered websites are built, based on a central content database.
 
-[![Build and Deploy](https://github.com/DIAGNijmegen/website-content/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/DIAGNijmegen/website-content/actions)
+[![Build and Deploy](https://github.com/AIforAnesthesiology/website-content/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/AIforAnesthesiology/website-content/actions)
 
 
 ## Websites
 
 Live websites:
 
-- Pathology: https://www.computationalpathologygroup.eu
-- Retina: https://www.a-eyeresearch.nl
-- RSE: https://rse.diagnijmegen.nl
-- AI for Health: https://www.ai-for-health.nl
-- RTC: https://rtc.diagnijmegen.nl
-- DIAG (main website): https://www.diagnijmegen.nl
+- AI for Anesthesiology: https://www.aiforanesthesiology.nl
+- Radboudumc subsite: https://radboudumc.aiforanesthesiology.nl
+- ETZ subsite: http://etz.aiforanesthesiology.nl
+
 
 ## Updating the content
 
-Please see the [documentation](https://github.com/DIAGNijmegen/website-content/tree/master/docs) for guides on updating the sites.
-
-## Building the website locally
-
-To build a website:
-
-1. Run `./parse_publications.sh` to parse the .bib file.
-3. Run `WEBSITE=website-pathology ./copy_content.sh` to copy files for any website (pathology in this example).
-2. Run pelican in `website-pathology` (or any other website): `pelican --autoreload`
-3. Start the development server: `pelican --listen`
-
-(On Non-windows you can combine step 2 and 3 with `pelican --autoreload --listen`)
-
-To build the css:
-
-4. Run css build in `radboudumc-theme`: `npm run deploy-watch`
+Please see the [documentation](https://github.com/AIforAnesthesiology/website-content/tree/master/docs) for guides on updating the sites.
 
 ## Design resources
 

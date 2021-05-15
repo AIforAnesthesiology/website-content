@@ -1,3 +1,8 @@
-# RSE website
+# ETZ subsite
 
-This is the website of the DIAG RSE team of the Radboud University Medical Center, Nijmegen, The Netherlands. For the build script please see https://github.com/DIAGNijmegen/website-content
+This is the ETZ sub-website of AI for Anesthesiology project.
+
+```diff
+- DO NOT MAKE ANY CHANGES IN THIS FOLDER
++ If you need to add content, visit the 'content' folder
+```

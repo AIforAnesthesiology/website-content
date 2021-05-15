@@ -7,3 +7,7 @@
 2. ```edit_url/``` Pelican runs this plugin automatically. This plugin adds an ```edit_url``` property to content objects that correspond to a place online to edit the content (usually Github).
 3. ```hierarchy/``` Pelican runs this plugin automatically. This plugin creates a URL hierarchy for pages that matches the directory hierarchy of their sources.
 4. ```fileutil/``` Custom plugins for file utilities.
+
+```diff
+- DO NOT MAKE ANY CHANGES IN THIS FOLDER
+```
