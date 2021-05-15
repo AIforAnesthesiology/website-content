@@ -179,7 +179,7 @@
                           {% if not ns.has_related_page %}
                             {% set ns.has_related_page = True %}
                         <dt>
-                            {% if related_page == 'research' %} 
+                            {% if related_page.capitalize() == 'Research' %} 
                                 Research lines:
                             {% else %)}
                                 {{ related_page.capitalize() }}:
