@@ -23,6 +23,9 @@
 
     <h4 class="person-title"><small>{{ person.position }}</small></h4>
 
+    {% if SITE_GROUP == 'ai4a' %}
+      <p class='text-muted'>{{ person.affiliation }}</p>
+    {% endif %}
 
     {% if SHOW_EMAIL_GROUP_MEMBERS_INLINE and person.email %}
     <p class='text-muted'><a href="mailto:{{ person.email }}"><svg class="svg-icon svg-icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg></a></p>
