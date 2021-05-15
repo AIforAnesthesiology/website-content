@@ -126,7 +126,7 @@
         {% else %}
             {% for person in members if person.type == 'faculty' and person.active == 'yes' %}
                 {% if not ns.has_faculty %}
-                    <h2>Members</h2>
+                    <h2>Researchers</h2>
                     <div class="row people-grid">
                     {% set ns.has_faculty = True %}
                 {% endif %}
