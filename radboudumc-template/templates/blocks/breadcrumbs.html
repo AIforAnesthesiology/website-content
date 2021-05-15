@@ -7,7 +7,7 @@
 	  {% set pageurl  = parent_page.url %}
 	  {% set pagetitle = parent_page.title %}
 
-	  {% if (parent_page.url == 'projects/') and SITE_GROUP == 'ai4a' %}
+	  {% if (parent_page.url == 'projects/') %}
 	    {% if page.type == 'general' %}
  	      {% set pageurl  = 'research' %}
 	      {% set pagetitle = 'Research' %}
