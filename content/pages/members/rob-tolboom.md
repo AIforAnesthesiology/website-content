@@ -2,7 +2,7 @@ title: Rob Tolboom
 name: Rob Tolboom
 template: people-single
 picture: people/Rob_Tolboom.jpeg
-position: AIOS anesthesie
+position: AIOS anesthesiologie
 active: yes
 groups: radboudumc, ai4a
 default_group: radboudumc
