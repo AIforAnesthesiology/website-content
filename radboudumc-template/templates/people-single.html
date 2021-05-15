@@ -175,20 +175,22 @@
                 {% for related_page in all_related_pages %}
                     {% set ns = namespace(has_related_page=False) %}
                     {% for other_page in pages %}
-                        {% if other_page.parent.url == related_page + '/' and other_page.people and page.name.strip() in other_page.people.split(', ') %}
-                          {% if not ns.has_related_page %}
-                            {% set ns.has_related_page = True %}
-                        <dt>
-                            {% if related_page.capitalize() == 'Research' %} 
-                                Research lines:
-                            {% else %}
-                                {{ related_page.capitalize() }}:
+                        {% if other_page.finished != True %}
+                            {% if other_page.parent.url == related_page + '/' and other_page.people and page.name.strip() in other_page.people.split(', ') %}
+                                {% if not ns.has_related_page %}
+                                    {% set ns.has_related_page = True %}
+                                    <dt>
+                                    {% if related_page.capitalize() == 'Research' %} 
+                                        Research lines:
+                                    {% else %}
+                                        {{ related_page.capitalize() }}:
+                                    {% endif %}
+                                    </dt>
+                                    <dd>
+                                    <ul>
+                                {% endif %}
+                                <li><a href="{{ SITEURL }}/{{ other_page.url }}">{{ other_page.title }}</a></li>
                             {% endif %}
-                        </dt>
-                        <dd>
-                            <ul>
-                          {% endif %}
-                          <li><a href="{{ SITEURL }}/{{ other_page.url }}">{{ other_page.title }}</a></li>
                         {% endif %}
                     {% endfor %}
 
