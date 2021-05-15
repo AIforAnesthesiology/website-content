@@ -2,7 +2,7 @@ title: AI for Anesthesiology research centers
 template: people
 
 * [Radboudumc](http://radboudumc.aiforanesthesiology.nl)
-![Adhesion example]({{ IMGURL }}/images/radboudumc+logo_english-320.png)
+![Adhesion example]({{ IMGURL }}/images/radboudumc_logo_english-320.png)
 
 <!---
 
