@@ -21,7 +21,7 @@
     </a></h3>
 
     {% if SITE_GROUP == 'ai4a' %}
-      <h4 class="person-title"><small>{{ person.affiliation }}</small></h4>
+      <h4 class="person-title"><small>{{ person.affiliation if person.affiliation is string else person.affiliation | join(', ')  }}</small></h4>
     {% else %}
       <h4 class="person-title"><small>{{ person.position }}</small></h4>
     {% endif %}
