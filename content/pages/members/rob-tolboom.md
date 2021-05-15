@@ -8,7 +8,7 @@ groups: radboudumc, ai4a
 default_group: radboudumc
 email: Rob.Tolboom@radboudumc.nl
 office: Radboudumc, Nijmegen: Route 710
-type: faculty
+type: chair
 telephone: +31 24 0000 0000
 affiliation: Radboudumc, Nijmegen
 scholar: https://scholar.google.com/citations?user=20c9OHYAAAAJ
