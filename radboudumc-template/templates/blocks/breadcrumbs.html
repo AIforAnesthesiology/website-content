@@ -7,14 +7,14 @@
 	  {% set pageurl  = parent_page.url %}
 	  {% set pagetitle = parent_page.title %}
 
-	  {% if (parent_page.url == 'vacancies/' or parent_page.url == 'projects/') and SITE_GROUP == 'ai-for-health' %}
+	  {% if (parent_page.url == 'projects/') and SITE_GROUP == 'ai4a' %}
 	    {% if page.type == 'general' %}
- 	      {% set pageurl  = 'phd_projects' %}
-	      {% set pagetitle = 'PhD Projects' %}
+ 	      {% set pageurl  = 'research' %}
+	      {% set pagetitle = 'Research' %}
 	    {% endif %}
 	    {% if page.type == 'student' %}
- 	      {% set pageurl  = 'student_projects' %}
-	      {% set pagetitle = 'BSc/MSc Projects' %}
+ 	      {% set pageurl  = 'research' %}
+	      {% set pagetitle = 'Research' %}
 	    {% endif %}
 	  {% endif %}
 
