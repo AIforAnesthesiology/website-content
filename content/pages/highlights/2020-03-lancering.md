@@ -1,5 +1,5 @@
-title: Lancering 'AI for Anesthesiology' 
-date: 2021-03-23
+title: Test nieuwsbericht
+date: 2021-06-01
 picture: social/missing_picture_social.png
 groups: ai4a
 full_width: true
