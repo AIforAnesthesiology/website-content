@@ -4,28 +4,28 @@ groups: etz, ai4a
 default_group: etz
 
 name: Erik Dortangs
-picture: people/Rob_Tolboom.jpeg
+picture: people/Erik_Dortangs.jpg
 
-affiliation: Radboudumc, Nijmegen
+affiliation: ETZ, Tilburg
 type: faculty
-position: AIOS anesthesiologie
+position: Anesthesioloog
 
 active: yes
 
-email: Rob.Tolboom@radboudumc.nl
-office: Route 710, arts-assistentenkamer
+email: E.Dortangs@etz.nl
+office: 
 telephone: 
 website: 
 
-scholar: https://scholar.google.com/citations?user=20c9OHYAAAAJ
-publons: https://publons.com/researcher/2830600/robert-c-tolboom/
-orcid: https://orcid.org/0000-0002-3460-1934
-linkedin: http://www.linkedin.com/in/robtolboom/
+scholar: 
+publons: 
+orcid: 
+linkedin: http://www.linkedin.com/in/erik-j-m-dortangs-0941bb22
 
-After graduation from secondary education (Baarnsch Lyceum) in 2005, he moved to Utrecht to study Medicine at Utrecht University. During the latter years of his study, his interest in research was sparked and he started contributing to a research project at the department of cardiology as research-assistant. He finished his master’s degree with a senior internship at the department of surgery at the Sint Antonius Hospital in Nijmegen, followed by a senior internship at the department of pediatric anesthesiology at the Wilhelmina Childrens’ hospital in Utrecht. 
+Ik ben opgeleid tot algemeen anesthesioloog in het Maastricht Universitair Medisch Centrum. Tijdens mijn opleiding heb ik ook in het Catharina Ziekenhuis Eindhoven en Ziekenhuis Oost-Limburg in Genk (België) gewerkt. Na mijn opleiding wilde ik in een groot ziekenhuis aan de slag dat ook als level 1 Traumacentrum fungeert. Het ETZ biedt complexe zorg op hoog niveau.
 
-Following his graduation in 2012, Rob started working at the Meander Medical Center in Amersfoort as a surgical resident (not in training). Here he met prof. Broeders and dr. Draaisma with whom he initiated several research projects which eventually culminated to his thesis on High-tech Hiatal Hernia surgery. 
+De visie van het ETZ, waarbij de patiënt centraal staat spreekt mij erg aan. De korte lijnen tussen de verschillende afdelingen en het vriendelijke contact met andere specialisten maken de werksfeer prettig en dat draagt bij aan goede patiëntenzorg. Daarom werk ik sinds 1 oktober 2014 in het ETZ Elisabeth en sinds januari 2017 ook op de locaties TweeSteden en Waalwijk.  
 
-After working at several other hospitals in the fields of general surgery and intensive care medicine, he decided to enter the anesthesiology residency program at Radboud University Medical Center under supervision of dr. C. Keijzer-Broeders. Recent advances in artificial intelligence have led to him following a course on AI for Health at the Jheronimus Academy of Data Science in Den Bosch. 
+In het ETZ worden veel ziektebeelden behandeld, waarbij anesthesiologie een belangrijke rol speelt. Het is een ambitieus opleidingsziekenhuis waar we jonge collega’s opleiden tot medisch specialist. Ik draag graag mijn steentje bij door te innoveren en bouwen aan de zorg van de toekomst, waarbij het concentreren van de zorg op één ziekenhuislocatie in de regio Midden-Brabant een belangrijk onderdeel is. 
 
-His current research focusses primarily on AI implementations in anesthesiologic care.
+Mijn aandachtsgebieden zijn trauma- en urgentiegeneeskunde en locoregionale anesthesie. Ook hecht ik grote waarde aan onderwijs, begeleiding en simulatie- en scenariotraining.
