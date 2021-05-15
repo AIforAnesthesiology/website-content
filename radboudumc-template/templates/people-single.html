@@ -170,7 +170,7 @@
             {{ page.content }}
 
             <dl>
-                {% set all_related_pages = ['projects', 'software', 'research'] %}
+                {% set all_related_pages = ['research', 'projects', 'software'] %}
 
                 {% for related_page in all_related_pages %}
                     {% set ns = namespace(has_related_page=False) %}
@@ -178,7 +178,13 @@
                         {% if other_page.parent.url == related_page + '/' and other_page.people and page.name.strip() in other_page.people.split(', ') %}
                           {% if not ns.has_related_page %}
                             {% set ns.has_related_page = True %}
-                        <dt> {{ related_page.capitalize() }}:</dt>
+                        <dt>
+                            {% if related_page == 'research' %} 
+                                Research lines:
+                            {% else %)}
+                                {{ related_page.capitalize() }}:
+                            {% endif %}
+                        </dt>
                         <dd>
                             <ul>
                           {% endif %}
