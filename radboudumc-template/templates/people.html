@@ -124,7 +124,7 @@
                 {% endif %}
             {% endif %}
         {% else %}
-            {% for person in members if person.type == 'faculty' and person.active == 'yes' %}
+            {% for person in members if ( person.type == 'faculty' or person.type == 'chair' ) and person.active == 'yes' %}
                 {% if person.name in MEMBER_DATA_PER_NAME %}
                     {% set person = MEMBER_DATA_PER_NAME[person.name] %}
                 {% endif %}  
