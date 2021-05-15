@@ -6,7 +6,7 @@ name: Rob Tolboom
 picture: people/Rob_Tolboom.jpeg
 affiliation: Radboudumc, Nijmegen
 type: faculty
-position: AIOS anesthesiologie
+position: Anesthesiology Resident
 active: yes
 email: Rob.Tolboom@radboudumc.nl
 office: Route 710, arts-assistentenkamer

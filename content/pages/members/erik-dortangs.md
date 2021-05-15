@@ -6,7 +6,7 @@ name: Erik Dortangs
 picture: people/Erik_Dortangs.jpg
 affiliation: ETZ, Tilburg
 type: faculty
-position: Anesthesioloog
+position: Anesthesiologist
 active: yes
 email: E.Dortangs@etz.nl
 office: 
