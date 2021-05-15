@@ -152,7 +152,41 @@
         </div>
     </div>
     {% endif %}
-
+    
+    {% if "Research" in HOME_SECTIONS %}
+    <div class="block {{ row_class.next() }}">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-4">
+                    <h1>{{ HOME_SECTIONS["Research"] }}</h1>
+                    {% for card in pages %}
+                        {% if card.category == 'research' %}
+                            {% if card.template == 'research' %}
+                                {% if card.description %} 
+                                    {{ card.description }}
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        {% for card in pages %}
+                            {% if card.category == 'research' %}
+                                {% if card.finished == 'false' %}
+                                 {% include "blocks/card.html" %}
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+        
     {% if "Vacancies" in HOME_SECTIONS %}
       {% set ns = namespace(has_vacancy=False, vacancies=0) %}
 
@@ -204,39 +238,7 @@
       {% endif %}
     {% endif %}
 
-    {% if "Research" in HOME_SECTIONS %}
-    <div class="block {{ row_class.next() }}">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 mb-4">
-                    <h1>{{ HOME_SECTIONS["Research"] }}</h1>
-                    {% for card in pages %}
-                        {% if card.category == 'research' %}
-                            {% if card.template == 'research' %}
-                                {% if card.description %} 
-                                    {{ card.description }}
-                                {% endif %}
-                            {% endif %}
-                        {% endif %}
-                    {% endfor %}
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="row">
-                        {% for card in pages %}
-                            {% if card.category == 'research' %}
-                                {% if card.finished == 'false' %}
-                                 {% include "blocks/card.html" %}
-                                {% endif %}
-                            {% endif %}
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    {% endif %}
+    
 
 
     {% if "Projects" in HOME_SECTIONS %}
