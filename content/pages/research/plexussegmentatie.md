@@ -3,7 +3,7 @@ picture: projects/brachial-plexus.png
 template: research-single
 groups: radboudumc, etz, ai4a
 default_group: radboudumc
-people: Rob Tolboom
+people: Rob Tolboom, Erik Dortangs
 description: Automated nerve segementation on ultrasound imaging.
 projects: ai-brachial-plexus-segmentation, ai-brachial-plexus-segmentation-2
 
