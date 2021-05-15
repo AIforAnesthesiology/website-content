@@ -9,7 +9,7 @@ default_group: radboudumc
 email: Rob.Tolboom@radboudumc.nl
 office: Route 710, arts-assistentenkamer
 type: faculty
-telephone: +31 24 0000 0000
+telephone: 
 affiliation: Radboudumc, Nijmegen
 scholar: https://scholar.google.com/citations?user=20c9OHYAAAAJ
 publons: https://publons.com/researcher/2830600/robert-c-tolboom/
