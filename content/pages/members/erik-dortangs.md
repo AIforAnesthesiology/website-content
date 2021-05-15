@@ -2,7 +2,7 @@ title: Erik Dortangs
 name: Erik Dortangs
 template: people-single
 picture: people/Erik_Dortangs.jpg
-position: Researcher
+position: Anesthesioloog
 active: yes
 groups: etz, ai4a
 default_group: etz
