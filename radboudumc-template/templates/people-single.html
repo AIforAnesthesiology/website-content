@@ -182,8 +182,11 @@
                                     <dt>
                                     {% if related_page.capitalize() == 'Research' %} 
                                         Research lines:
+                                    {% elseif  related_page.capitalize() == 'Projects' %}
+                                        Current projects:
                                     {% else %}
                                         {{ related_page.capitalize() }}:
+                                    }
                                     {% endif %}
                                     </dt>
                                     <dd>
