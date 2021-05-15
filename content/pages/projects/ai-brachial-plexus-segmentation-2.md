@@ -5,7 +5,7 @@ default_group: radboudumc
 finished: false
 type: general
 template: project-single
-people: Rob Tolboom
+people: Rob Tolboom, Nicola Pezzotti, Ruud van Sloun
 description: The goal of this project is to use the dataset with manual segmentation masks to train an U-net model.
 
 ## Background
