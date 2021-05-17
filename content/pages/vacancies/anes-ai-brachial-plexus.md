@@ -8,7 +8,7 @@ people: Rob Tolboom
 description: Develop a Deep Learning (DL) model to segment the brachial plexus on ultrasound images.
 
 
-### Background
+## Background
 Regional nerve block is a common anaesthesia technique used for surgery on the extremities. A successful block requires excellent anaesthesia experience including the ability to identify the appropriate nerves and surrounding tissues on ultrasound and good skills with a needle.
 
 Previous studies have primarily focussed on the usage of ultrasound which has shown that ultrasound increases the success rate of regional nerve blocks. Some studies, however, have found that even with ultrasound assistance, a relatively high failure rate persists. This failure rate has largely been attributed to operators with limited experience and insufficient ultrasound skills.
