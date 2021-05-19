@@ -1,6 +1,6 @@
 title: Launch of proof-of-concept website
 date: 2021-06-01
-picture: social/missing_picture_social.png
+picture: social/Champagne.jpg
 groups: ai4a
 full_width: true
 
