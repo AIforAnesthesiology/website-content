@@ -10,8 +10,11 @@ This repository stores all the content and source code for the AI for Anesthesio
 Live websites:
 
 - AI for Anesthesiology: https://www.aiforanesthesiology.nl
-- Radboudumc subsite: https://radboudumc.aiforanesthesiology.nl
-- ETZ subsite: http://etz.aiforanesthesiology.nl
+
+Live subsites:
+
+- Radboudumc: https://radboudumc.aiforanesthesiology.nl
+- ETZ: http://etz.aiforanesthesiology.nl
 
 
 ## Updating the content
